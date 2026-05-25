@@ -126,5 +126,6 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('btnTentarNovamente').addEventListener('click', () => {
         modalErro.classList.remove('active');
         form.style.display = 'block';
+        form.reset();
     });
 });
